@@ -1,0 +1,96 @@
+.saludo__inicial {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.card__container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card {
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card__footer button {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 56, 86);
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card__footer button:hover {
+    box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+
+
+
+/* -------- */
+.card__detail {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    background-color: rgba(220, 220, 220, 0.377);
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.imagen__container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.imagen__container img {
+    width: 60%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.235);
+}
+
+.card__detail__body {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(25, 130, 130);
+    padding: 10px;
+}
+
+.footer__detail {
+    margin-top: 350px;
+    /*provisorio*/
+}
