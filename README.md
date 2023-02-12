@@ -16,7 +16,7 @@ Este proyecto es una plataforma e-commerce en línea desarrollada en React Js (c
 3. Ejecuta la aplicación en tu equipo local:
    npm run dev
 
-## Dependencias
+## Dependencias / Versiones
 
 - "dom": "0.0.3",
 - "firebase": "9.16.0",
@@ -32,9 +32,11 @@ Este proyecto utiliza Firebase como base de datos para almacenar los datos de lo
 
 ## Demo
 
-Puedes ver una demo en vivo de este proyecto en [Netlify](https://dapper-rolypoly-25a3cf.netlify.app/).
-GIF 
+Puedes ver una demo en vivo de este proyecto en:
+[Netlify](https://dapper-rolypoly-25a3cf.netlify.app/),
+
+GIF [Drive](https://drive.google.com/file/d/14M7Rcks5_ci_5GwopjX9-g7sVM0ioKMj/view?usp=sharing)
 
 ## Versiones
 
-La versión actual de este proyecto es v1.0.0.
+La versión actual de este proyecto es v2.0

@@ -8,16 +8,21 @@ const ItemCount = ({ initial = 1, stock = 10, onAdd }) => {
     const [inputType, setImputType] = useState("button")
 
     const handleSuma = () => {
-        if (contador < stock) { setContador(contador + 1) }
+        if (contador < stock) {
+            setContador(contador + 1);
+            setImputType("button");
+        }
     }
 
     const handleResta = () => {
-        if (contador > initial) { setContador(contador - 1) }
+        if (contador > initial) {
+            setContador(contador - 1);
+            setImputType("button");
+        }
     }
-
     const handleOnAdd = () => {
         onAdd(contador)
-        // setImputType('input')
+        setImputType('input')
     }
 
 

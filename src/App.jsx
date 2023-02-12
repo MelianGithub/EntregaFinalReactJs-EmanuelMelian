@@ -4,7 +4,6 @@ import { CartContainer } from './components/containers/CartContainer/CartContain
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import { CartContextProvider } from './context/CartContext';
 import NavBar from './components/NavBar/NavBar'
-import './App.css'
 
 function App() {
 
