@@ -1,43 +1,38 @@
-Projecto final React js
 
-dependencias
-titulo
-versiones
-breve descripcion
-
-firebase
 react-router-dom version breve descripcion (nos da el rutado para nuestra app)
 
-
-Demo (link a netlify)
 instalacion (opcional)
 
 # MundoGaming
 
-Este proyecto es una plataforma de juegos en línea desarrollada en React Js, que permite a los usuarios jugar juegos en línea con sus amigos y compartir su experiencia en tiempo real.
+Este proyecto es una plataforma e-commerce en línea desarrollada en React Js (como parte de un curso de React JS), que vende productos informaticos.
 
 ## Instalación
 
 1. Clona el repositorio en tu equipo local utilizando el siguiente comando:
-   git clone https://github.com/tu-usuario/MundoGaming.git
+   git clone https://github.com/MelianGithub/EntregaFinalReactJs-EmanuelMelian
 2. Instala las dependencias requeridas utilizando npm:
    npm install
 3. Ejecuta la aplicación en tu equipo local:
-   npm start
+   npm run dev
 
 ## Dependencias
 
-- React
-- React Router
-- Firebase
+- "dom": "0.0.3",
+- "firebase": "9.16.0",
+- "react": "18.2.0",
+- "react-dom": "18.2.0",
+- "react-icons": "4.7.1",
+- "react-router": "6.6.2",
+- "react-router-dom": "6.6.2"
 
 ## Base de datos
 
-Este proyecto utiliza Firebase como base de datos para almacenar los datos de los usuarios y las partidas de juego.
+Este proyecto utiliza Firebase como base de datos para almacenar los datos de los productos de la tienda.
 
 ## Demo
 
-Puedes ver una demo en vivo de este proyecto en [Netlify](https://tu-proyecto.netlify.app).
+Puedes ver una demo en vivo de este proyecto en [Netlify](https://dapper-rolypoly-25a3cf.netlify.app/).
 
 ## Versiones
 
