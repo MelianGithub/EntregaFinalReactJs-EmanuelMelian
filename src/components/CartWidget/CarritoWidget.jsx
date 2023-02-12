@@ -5,7 +5,7 @@ export const CarritoWidget = () => {
     return (
 
         <div className="icon">
-            {cantidadTotal()}
+            {cantidadTotal() !== 0 && cantidadTotal()}
             <i className='bx bx-cart-alt'> MIS COMPRAS</i>
         </div>
 

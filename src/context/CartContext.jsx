@@ -8,8 +8,17 @@ export const useCartContext = () => useContext(CartContext)
 export const CartContextProvider = ({ children }) => {
     const [cartList, setCartList] = useState([])
 
-    const agregarCarrito = (product) => {
-        setCartList([...cartList, product])
+    const agregarCarrito = (addProduct) => {
+        const index = cartList.findIndex(product => product.id === addProduct.id)
+        if (index !== -1) {
+
+            cartList[index].cantidad = cartList[index].cantidad + addProduct.cantidad
+            setCartList([...cartList])
+
+        } else {
+            setCartList([...cartList, addProduct])
+        }
+
     }
 
     const cantidadTotal = () => cartList.reduce((count, objProducto) => count += objProducto.cantidad, 0)

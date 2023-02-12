@@ -4,18 +4,10 @@ import "./ItemDetail.css"
 
 
 const ItemDetail = ({ producto }) => {
-    const { agregarCarrito, cartList, setCartList } = useCartContext();
+    const { agregarCarrito } = useCartContext();
 
     const onAdd = (contador) => {
-
-        const productoExistenteIndex = cartList.findIndex(item => item.id === producto.id);
-        if (productoExistenteIndex !== -1) {
-            const carritoActualizado = [...cartList];
-            carritoActualizado[productoExistenteIndex].cantidad += contador;
-            setCartList(carritoActualizado);
-        } else {
-            agregarCarrito({ ...producto, cantidad: contador });
-        }
+        agregarCarrito( { ...producto, cantidad: contador } )
     }
 
     return (

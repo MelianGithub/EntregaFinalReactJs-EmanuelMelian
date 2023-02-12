@@ -36,12 +36,7 @@ export const CartContainer = () => {
         .then(resp => setShowSuccessMessage(true))
         .catch(err => console.log(err))
         .finally(
-          setDataForm({
-            name: "",
-            phone: "",
-            email: "",
-            validarEmail: ""
-          })
+          vaciarCarrito()
         )
     }
   }
