@@ -16,7 +16,7 @@ function NavBar() {
                     <i className='bx bx-search-alt-2'></i>
                 </div>
 
-                <a href="">
+                <a>
                     <i className='bx bx-user' > Ingresa </i>
                 </a>
                 <a>

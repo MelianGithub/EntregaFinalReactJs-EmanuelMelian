@@ -18,7 +18,6 @@ export const CartContextProvider = ({ children }) => {
         } else {
             setCartList([...cartList, addProduct])
         }
-
     }
 
     const cantidadTotal = () => cartList.reduce((count, objProducto) => count += objProducto.cantidad, 0)
@@ -30,7 +29,6 @@ export const CartContextProvider = ({ children }) => {
     const vaciarCarrito = () => {
         setCartList([])
     }
-
 
     return (
         <CartContext.Provider value={{

@@ -4,6 +4,7 @@ import { CartContainer } from './components/containers/CartContainer/CartContain
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import { CartContextProvider } from './context/CartContext';
 import NavBar from './components/NavBar/NavBar'
+import CheckOutContainer from './components/containers/CheckOutContainer/CheckOutContainer.jsx';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path='/categoria/:categoriaId' element={<ItemListContainer saludo="Mundo Gaming" />} />
             <Route path='/detail/:detailId' element={<ItemDetailContainer />} />
             <Route path='/cart' element={<CartContainer />} />
+            <Route path='/checkout' element={<CheckOutContainer />} />
             <Route path='*' element={<Navigate to='/' />} />
 
           </Routes>
@@ -30,4 +32,4 @@ function App() {
   )
 }
 
-export default App;
+export default App; 

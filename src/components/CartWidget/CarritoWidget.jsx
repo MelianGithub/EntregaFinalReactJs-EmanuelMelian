@@ -6,7 +6,7 @@ export const CarritoWidget = () => {
 
         <div className="icon">
             {cantidadTotal() !== 0 && cantidadTotal()}
-            <i className='bx bx-cart-alt'> MIS COMPRAS</i>
+            <i className='bx bx-cart-alt'> MI CARRITO </i>
         </div>
 
     )

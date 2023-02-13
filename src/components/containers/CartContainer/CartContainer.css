@@ -49,5 +49,29 @@
     cursor: pointer;
 }
 
+.seguir__comprando form {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    text-align: center;
+}
+.seguir__comprando input{
+    padding: 10px;
+}
 
+.seguir__comprando h2{
+    padding: 20px;
+}
 
+.successfully,
+.empty {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    color: #003E77;
+    font-weight: bold;
+    background-color: #7d96ae61;
+    text-align: center;
+}

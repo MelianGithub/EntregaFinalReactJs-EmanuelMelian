@@ -33,10 +33,10 @@ Este proyecto utiliza Firebase como base de datos para almacenar los datos de lo
 ## Demo
 
 Puedes ver una demo en vivo de este proyecto en:
-[Netlify](https://dapper-rolypoly-25a3cf.netlify.app/),
+[Netlify](https://silver-pasca-0eec72.netlify.app/),
 
-GIF [Drive](https://drive.google.com/file/d/1IIZDm9vZRh7r4tlieSxLAe6PtFzOr-ri/view?usp=share_link)
+GIF [Drive](https://drive.google.com/file/d/1_pBmkvorcq_v1DdbzGx6BUah3bjEtdim/view)
 
 ## Versiones
 
-La versión actual de este proyecto es v2.0
+La versión actual de este proyecto es v13.2.23
